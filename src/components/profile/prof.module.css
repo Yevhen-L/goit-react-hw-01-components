@@ -6,7 +6,7 @@
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  /* border: 2px solid gray; */
+  background-color: aliceblue;
 }
 .img {
   border: 1px solid black;
