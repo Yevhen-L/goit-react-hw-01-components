@@ -1,3 +1,5 @@
+import css from './prof.module.css';
+
 export const CardProfile = ({
   username,
   tag,
@@ -7,27 +9,27 @@ export const CardProfile = ({
 }) => {
   return (
     <div>
-      <div>
-        <img src={avatar} alt={username} />
-        <p>{username}</p>
-        <p>{tag}</p>
-        <p>{location}</p>
+      <div className={css.profile}>
+        <img className={css.img} src={avatar} alt={username} />
+        <p className={css.username}>{username}</p>
+        <p className={css.tag}>{tag}</p>
+        <p className={css.location}>{location}</p>
       </div>
-      <ul>
+      <ul className={css.statistics}>
         <li>
-          <span className="label">
+          <span className={css.label}>
             Followers:
-            <span className="quantity">{followers}</span>
+            <span className={css.quantity}>{followers}</span>
           </span>
         </li>
         <li>
-          <span className="label">
-            Views: <span className="quantity">{views}</span>
+          <span className={css.label}>
+            Views: <span className={css.quantity}>{views}</span>
           </span>
         </li>
         <li>
-          <span className="label">
-            Likes: <span className="quantity">{likes}</span>
+          <span className={css.label}>
+            Likes: <span className={css.quantity}>{likes}</span>
           </span>
         </li>
       </ul>

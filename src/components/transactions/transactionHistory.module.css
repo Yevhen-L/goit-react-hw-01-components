@@ -3,15 +3,20 @@
   display: flex;
   flex-direction: column;
   width: 380px;
-  /* padding: 10px; */
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid gray;
-  border-radius: 10px;
-  background-color: rgb(231, 230, 230);
+  /* border: 1px solid black; */
+}
+.tbody {
+  border: 1px solid black;
 }
 
+/* .tr {
+  border: 1px solid black;
+} */
+
 .title {
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   gap: 35px;
@@ -20,9 +25,13 @@
 }
 
 .list {
+  border-radius: 1px solid black;
   display: flex;
   justify-content: center;
   gap: 65px;
   font-size: 18x;
   margin-bottom: 8px;
 }
+/* .item {
+  border: 1px solid black;
+} */

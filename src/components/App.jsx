@@ -14,7 +14,7 @@ export const App = props => {
   return (
     <div>
       <CardProfile
-        username={user.esername}
+        username={user.username}
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
