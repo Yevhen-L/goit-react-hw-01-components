@@ -1,0 +1,28 @@
+.transactionHistory {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  /* padding: 10px; */
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: rgb(231, 230, 230);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  font-size: 18x;
+  margin-bottom: 8px;
+}
