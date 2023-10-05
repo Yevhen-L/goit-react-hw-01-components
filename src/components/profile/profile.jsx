@@ -7,8 +7,8 @@ export const CardProfile = ({
 }) => {
   return (
     <div>
-      <div className="description">
-        <img className="avatar" src={avatar} alt={username} />
+      <div>
+        <img src={avatar} alt={username} />
         <p>{username}</p>
         <p>{tag}</p>
         <p>{location}</p>

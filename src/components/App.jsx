@@ -2,7 +2,7 @@ import { CardProfile } from './profile/profile';
 import user from '../data/user.json';
 
 import { Statistics } from './statistics/statistics';
-import userstats from '../data/data.json';
+import data from '../data/data.json';
 
 import { FriendList } from './friendslist/friendList';
 import friendlist from '../data/friends.json';
@@ -20,10 +20,8 @@ export const App = props => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics userstats={userstats} />
-
-      <FriendList friens={friendlist} />
-
+      <Statistics title="Upload stats" stats={data} />
+      <FriendList friends={friendlist} />
       <TransactionHistory transactions={transactions} />
     </div>
   );

@@ -1,9 +1,9 @@
-export const Statistics = ({ userstats }) => {
+export const Statistics = ({ title, stats }) => {
   return (
     <div>
-      <h2>Upload stats</h2>
+      {title && <h2>{title}</h2>}
       <ul>
-        {userstats.map(userstats => {
+        {stats.map(userstats => {
           return (
             <li key={userstats.id}>
               <span>{userstats.label}</span>
